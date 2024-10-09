@@ -1,0 +1,77 @@
+body{
+    background-color: white;
+}
+/* p{
+    color: green;
+    font-size: 30px;
+} */
+/* div{
+    color:rgb(255, 14, 0);
+    background-color: rgb(255, 255, 254, 0.2);
+}  */
+
+.caja1{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(238, 164, 187)
+}
+
+.caja2{
+    width: 150px;
+    height: 150px;
+    background-color: #FF2800
+}
+
+.caja3{
+    width: 150px;
+    height: 150px;
+    background-color: hsl(220, 100%, 20%);
+}
+
+/* a[title]{
+    color: #ffc20e;
+} */
+
+input:disabled{
+    border: 2px solid orange;
+}
+
+/* button:hover{
+    background-color: green;
+} */
+
+/* p::first-line{
+    color: green;
+} */
+
+/* .foo, .bar{
+    color: green;
+}
+
+.abuelo div{
+    color: red
+} */
+
+.abuelo>div{
+    color: orange
+}
+
+.hijo1~div{
+    color: mediumorchid
+}
+
+.foo{
+    color:green;
+}
+
+#bar{
+    color: red;
+}
+
+#outer a{
+    background-color: red;
+}
+
+#outer #inner a{
+    background-color: blue;
+}
